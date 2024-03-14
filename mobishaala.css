@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-container {
+    background-image: url("https://i.pinimg.com/736x/5b/79/33/5b793319eb8ec50fcceb7099e874f4a9.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-family: Sans-serif;
+}
+
+@media (max-width:576px) {
+    .home-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        height: auto;
+        text-align: center;
+    }
+}
+
+.content-container {
+    color: #ffffff;
+}
+
+@media (min-width:765px) {
+    .content-container {
+        margin-left: 30px;
+    }
+}
+
+.company-name {
+
+    font-weight: bold;
+}
+
+.highlighted-text {
+    color: #ebdb34;
+}
+
+.button {
+    background-color: #ed092c;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+
+.chat-button {
+    background-color: #09e343;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.description {
+    margin-bottom: 35px;
+    margin-top: 35px;
+
+}
+
+@media (max-width: 765px) {
+    .description {
+        display: none;
+    }
+}
+
+.teacher-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.student-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.video-content {
+    display: block;
+    margin-right: 30px;
+    width: 70%;
+}
+
+.address {
+    background-color: #cc0a24;
+    color: white;
+    padding: 17px;
+    text-align: start;
+}
+
+@media (min-width:765px) {
+    .address {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .video-content {
+        display: none;
+    }
+
+}
+
+.video-content-mobile {
+    display: none;
+    width: 70%;
+}
+
+@media (max-width: 576px) {
+    .video-content-mobile {
+        display: block;
+
+    }
+
+}
